@@ -13,6 +13,7 @@ outfit "Supercapacitor"
 	cost 25000
 	thumbnail "outfit/supercapacitor"
 	"mass" 2
+	"required maintenance" 0.2
 	"outfit space" -2
 	"energy capacity" 150
 	description "With a powerful enough generator, many ships do not need batteries at all. The one exception is projectile weapons, which usually require a burst of energy far exceeding what the generator produces. Supercapacitors provide just enough energy storage for those weapons, without requiring you to install a bulky battery pack."
@@ -22,6 +23,7 @@ outfit "LP036a Battery Pack"
 	cost 12000
 	thumbnail "outfit/tiny battery"
 	"mass" 10
+	"required maintenance" 1.0
 	"outfit space" -10
 	"energy capacity" 1000
 	description "A ship can run without batteries if its generator's instantaneous power output is higher than the total energy consumption of its systems, but batteries make it possible to store up energy when it is not needed and thus to use a much smaller and cheaper generator."
@@ -31,6 +33,7 @@ outfit "LP072a Battery Pack"
 	cost 30000
 	thumbnail "outfit/small battery"
 	"mass" 20
+	"required maintenance" 2.0
 	"outfit space" -20
 	"energy capacity" 2200
 	description "This battery pack has more than twice the energy capacity of the most basic model, allowing your ship to engage in combat for longer periods of time before running out of energy. Some pilots have even been known to install these in lieu of any generator at all, trusting that they can reach their destination planet and recharge before running out of battery power, but that is a risky proposition."
@@ -40,6 +43,7 @@ outfit "LP144a Battery Pack"
 	cost 67000
 	thumbnail "outfit/medium battery"
 	"mass" 40
+	"required maintenance" 4.0
 	"outfit space" -40
 	"energy capacity" 4800
 	description "This medium-sized battery pack is intended for ships that need to fire the occasional salvo of high-powered weaponry without running out of energy. As with all battery packs, relying on batteries is risky if combat lasts long enough for them to become depleted."
@@ -49,6 +53,7 @@ outfit "LP288a Battery Pack"
 	cost 150000
 	thumbnail "outfit/large battery"
 	"mass" 80
+	"required maintenance" 8.0
 	"outfit space" -80
 	"energy capacity" 10400
 	description "This is a large battery pack designed for ships that may occasionally have high power needs but do not want the expense or the heat associated with a more powerful ship's generator."
@@ -58,6 +63,7 @@ outfit "LP576a Battery Pack"
 	cost 380000
 	thumbnail "outfit/huge battery"
 	"mass" 160
+	"required maintenance" 16.0
 	"outfit space" -160
 	"energy capacity" 23000
 	description "For most ships that require this much power, a larger generator makes more sense than a battery this size. However, battery packs have the advantage that they generate no heat, so some captains use them instead of powerful generators if they do not expect to be in combat frequently or for extended periods of time."
@@ -68,6 +74,7 @@ outfit "KP-6 Photovoltaic Panel"
 	cost 10000
 	thumbnail "outfit/tiny photovoltaic"
 	"mass" 3
+	"required maintenance" 0.3
 	"outfit space" -3
 	"solar collection" .1
 	description "This early commercial photovoltaic system was the driving force behind humanity's first interplanetary trade network. Rugged and modular, it can be bolted to the hull of any ship and has seen even the most remote parts of human space."
@@ -77,6 +84,7 @@ outfit "KP-6 Photovoltaic Array"
 	cost 90000
 	thumbnail "outfit/small photovoltaic"
 	"mass" 24
+	"required maintenance" 2.4
 	"outfit space" -24
 	"solar collection" 1.1
 	description "The compact modularity of the KP-6 lent itself well to the creation of larger solar collection arrays. This original Korunak Photovoltaics model is equipped with a solar tracker, allowing it to make better use of available light."
@@ -87,6 +95,7 @@ outfit "nGVF-AA Fuel Cell"
 	cost 40000
 	thumbnail "outfit/tiny fuel cell"
 	"mass" 20
+	"required maintenance" 2.0
 	"outfit space" -20
 	"energy generation" 1.2
 	"heat generation" 1.9
@@ -97,6 +106,7 @@ outfit "nGVF-BB Fuel Cell"
 	cost 47000
 	thumbnail "outfit/small fuel cell"
 	"mass" 30
+	"required maintenance" 3.0
 	"outfit space" -30
 	"energy generation" 1.9
 	"heat generation" 2.9
@@ -107,6 +117,7 @@ outfit "nGVF-CC Fuel Cell"
 	cost 72000
 	thumbnail "outfit/medium fuel cell"
 	"mass" 40
+	"required maintenance" 4.0
 	"outfit space" -40
 	"energy generation" 2.6
 	"heat generation" 3.8
@@ -117,6 +128,7 @@ outfit "nGVF-DD Fuel Cell"
 	cost 118000
 	thumbnail "outfit/large fuel cell"
 	"mass" 60
+	"required maintenance" 6.0
 	"outfit space" -60
 	"energy generation" 4.1
 	"heat generation" 5.7
@@ -127,6 +139,7 @@ outfit "nGVF-EE Fuel Cell"
 	cost 177000
 	thumbnail "outfit/huge fuel cell"
 	"mass" 80
+	"required maintenance" 8.0
 	"outfit space" -80
 	"energy generation" 5.9
 	"heat generation" 7.8
@@ -138,6 +151,7 @@ outfit "RT-I Radiothermal"
 	cost 300000
 	thumbnail "outfit/small radiothermal"
 	"mass" 45
+	"required maintenance" 4.5
 	"outfit space" -45
 	"energy generation" 4.4
 	"heat generation" 18
@@ -148,6 +162,7 @@ outfit "S3 Thermionic"
 	cost 360000
 	thumbnail "outfit/small thermionic"
 	"mass" 55
+	"required maintenance" 5.5
 	"outfit space" -55
 	"energy generation" 5.0
 	"heat generation" 12
@@ -158,6 +173,7 @@ outfit "NT-200 Nucleovoltaic"
 	cost 570000
 	thumbnail "outfit/small nucleovoltaic"
 	"mass" 65
+	"required maintenance" 6.5
 	"outfit space" -65
 	"energy generation" 7.2
 	"heat generation" 15
@@ -169,6 +185,7 @@ outfit "Dwarf Core"
 	cost 800000
 	thumbnail "outfit/dwarf core"
 	"mass" 36
+	"required maintenance" 3.6
 	"outfit space" -36
 	"energy generation" 4.8
 	"heat generation" 14
@@ -179,6 +196,7 @@ outfit "Fission Reactor"
 	cost 1500000
 	thumbnail "outfit/fission"
 	"mass" 65
+	"required maintenance" 6.5
 	"outfit space" -65
 	"energy generation" 9.4
 	"heat generation" 25
@@ -189,6 +207,7 @@ outfit "Breeder Reactor"
 	cost 2500000
 	thumbnail "outfit/breeder"
 	"mass" 80
+	"required maintenance" 8.0
 	"outfit space" -80
 	"energy generation" 12.8
 	"heat generation" 35
@@ -199,6 +218,7 @@ outfit "Fusion Reactor"
 	cost 5000000
 	thumbnail "outfit/fusion"
 	"mass" 100
+	"required maintenance" 10.0
 	"outfit space" -100
 	"energy generation" 18.2
 	"heat generation" 40
@@ -209,6 +229,7 @@ outfit "Armageddon Core"
 	cost 9000000
 	thumbnail "outfit/core"
 	"mass" 130
+	"required maintenance" 13.0
 	"outfit space" -130
 	"energy generation" 24.2
 	"heat generation" 75
@@ -219,6 +240,7 @@ outfit "Stack Core"
 	cost 4500000
 	thumbnail "outfit/stack core"
 	"mass" 140
+	"required maintenance" 14.0
 	"outfit space" -140
 	"energy generation" 22.9
 	"heat generation" 55

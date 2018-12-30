@@ -277,6 +277,11 @@ public:
 	// Access how many crew members this ship has or needs.
 	int Crew() const;
 	int RequiredCrew() const;
+
+	// how much maintenance the ship needs and how much personnel would be required to keep it working
+    double RequiredMaintenanceHours() const;
+    int RequiredMaintenanceCrew() const;
+
 	void AddCrew(int count);
 	// Check if this is a ship that can be used as a flagship.
 	bool CanBeFlagship() const;

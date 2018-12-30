@@ -2484,12 +2484,26 @@ int Ship::RequiredCrew() const
 {
 	if(attributes.Get("automaton"))
 		return 0;
-	
+
+	int baseCrew = attributes.Get("required crew");
+	int maintenanceCrew = RequiredMaintenanceCrew();
+
+	// if the base crew is enough to maintain the ship, the crew requirement doesn't change with installed outfits
+	int requiredCrew = max<int>(baseCrew,maintenanceCrew);
+
 	// Drones do not need crew, but all other ships need at least one.
-	return max<int>(1, attributes.Get("required crew"));
+	return max<int>(1, requiredCrew);
 }
 
+double Ship::RequiredMaintenanceHours() const
+{
+    return attributes.Get("required maintenance");
+}
 
+int Ship::RequiredMaintenanceCrew() const
+{
+    return RequiredMaintenanceHours() / 8;
+}
 
 void Ship::AddCrew(int count)
 {

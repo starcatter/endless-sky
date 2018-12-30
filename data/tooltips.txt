@@ -173,6 +173,9 @@ tip "ramscoop:"
 tip "required crew / bunks:"
 	`How many crew members are required to operate this ship, and how many total bunks are available. Extra bunks can be used for passengers or extra crew.`
 
+tip "maintenance hours / crew:"
+	`How many man-hours per day does the crew have to spend maintaining ship's outfits in working order, and the number of personnel needed to keep up.`
+
 tip "required crew:"
 	`Changes the number of crew members this ship requires by this amount.`
 

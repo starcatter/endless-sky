@@ -14,6 +14,8 @@ outfit "Cooling Ducts"
 	cost 10000
 	thumbnail "outfit/cooling ducts"
 	"mass" 5
+	"required maintenance" 0.5
+	"required maintenance" 0.5
 	"outfit space" -5
 	"cooling" 5
 	description "When trying to cram as many high-powered outfits as possible into a ship, occasionally you reach the point where it is sporadically overheating and shutting down. In that case, you may need to install one of these."
@@ -23,6 +25,8 @@ outfit "Water Coolant System"
 	cost 25000
 	thumbnail "outfit/water cooling"
 	"mass" 10
+	"required maintenance" 1.0
+	"required maintenance" 1.0
 	"outfit space" -10
 	"cooling" 12
 	description "This system is a step up from ordinary cooling ducts; it circulates water in between an external radiator and your ship's hottest internal components to keep them from overheating."
@@ -32,6 +36,8 @@ outfit "Liquid Nitrogen Cooler"
 	cost 60000
 	thumbnail "outfit/liquid nitrogen"
 	"mass" 20
+	"required maintenance" 2.0
+	"required maintenance" 2.0
 	"outfit space" -20
 	"cooling" 29
 	description "For ships with extreme cooling needs, liquid nitrogen is the answer. One of these coolers will dissipate the heat produced by anything but the heaviest of armaments."
@@ -41,6 +47,8 @@ outfit "Liquid Helium Cooler"
 	cost 150000
 	thumbnail "outfit/liquid helium"
 	"mass" 40
+	"required maintenance" 4.0
+	"required maintenance" 4.0
 	"outfit space" -40
 	"cooling" 69
 	description "Liquid helium is the ultimate in cooling technology. Given how much space this cooling system takes up, you may be better off just installing more efficient, low-heat components instead, but where that is not an option, this cooler can handle almost anything you throw at it."
@@ -51,6 +59,8 @@ outfit "D14-RN Shield Generator"
 	cost 20000
 	thumbnail "outfit/tiny shield"
 	"mass" 15
+	"required maintenance" 1.5
+	"required maintenance" 1.5
 	"outfit space" -15
 	"shield generation" .2
 	"shield energy" .2
@@ -61,6 +71,7 @@ outfit "D23-QP Shield Generator"
 	cost 35000
 	thumbnail "outfit/small shield"
 	"mass" 22
+	"required maintenance" 2.2
 	"outfit space" -22
 	"shield generation" .32
 	"shield energy" .32
@@ -71,6 +82,7 @@ outfit "D41-HY Shield Generator"
 	cost 65000
 	thumbnail "outfit/medium shield"
 	"mass" 30
+	"required maintenance" 3.0
 	"outfit space" -30
 	"shield generation" .51
 	"shield energy" .51
@@ -81,6 +93,7 @@ outfit "D67-TM Shield Generator"
 	cost 120000
 	thumbnail "outfit/large shield"
 	"mass" 45
+	"required maintenance" 4.5
 	"outfit space" -45
 	"shield generation" .82
 	"shield energy" .82
@@ -91,6 +104,7 @@ outfit "D94-YV Shield Generator"
 	cost 200000
 	thumbnail "outfit/huge shield"
 	"mass" 60
+	"required maintenance" 6.0
 	"outfit space" -60
 	"shield generation" 1.31
 	"shield energy" 1.31
@@ -101,6 +115,7 @@ outfit "S-270 Regenerator"
 	cost 220000
 	thumbnail "outfit/small regenerator"
 	"mass" 12
+	"required maintenance" 1.2
 	"outfit space" -12
 	"shield generation" .6
 	"shield energy" .6
@@ -113,6 +128,7 @@ outfit "S-970 Regenerator"
 	cost 800000
 	thumbnail "outfit/large regenerator"
 	"mass" 37
+	"required maintenance" 3.7
 	"outfit space" -37
 	"shield generation" 2.3
 	"shield energy" 2.3
@@ -126,6 +142,7 @@ outfit "Small Radar Jammer"
 	cost 70000
 	thumbnail "outfit/small radar jammer"
 	"mass" 4
+	"required maintenance" 0.4
 	"outfit space" -4
 	"radar jamming" 2
 	description "This radar jammer is designed to interfere with Sidewinders and any other missiles that rely on radar for tracking their targets. Jamming will occasionally cause missiles to lose their target locks."
@@ -135,6 +152,7 @@ outfit "Large Radar Jammer"
 	cost 490000
 	thumbnail "outfit/large radar jammer"
 	"mass" 14
+	"required maintenance" 1.4
 	"outfit space" -14
 	"radar jamming" 10
 	description "This high-power radar jammer will make it much more difficult for missiles that rely on radar to track you. It will not affect missiles that track you optically or that look for your ship's heat signature."
@@ -145,6 +163,7 @@ outfit "Ramscoop"
 	cost 60000
 	thumbnail "outfit/ramscoop"
 	"mass" 10
+	"required maintenance" 1.0
 	"outfit space" -10
 	"ramscoop" 1
 	description "In the early days of space exploration, when ships could travel through half a dozen systems before encountering an established colony where they could refuel, ramscoops were an essential piece of equipment, harvesting plasma from the solar wind to refill your hyperspace fuel tanks. Although you can install more than one ramscoop, additional ramscoops on a single ship are not as effective as the first."
@@ -155,6 +174,7 @@ outfit "Catalytic Ramscoop"
 	cost 320000
 	thumbnail "outfit/catalytic ramscoop"
 	"mass" 16
+	"required maintenance" 1.6
 	"outfit space" -16
 	"ramscoop" 7
 	description "Ramscoop technology has been almost unchanged for centuries, because with nearly every system in human space settled there has not been a pressing need for ships to generate their own fuel. But with the Free Worlds war making travel once again more difficult, some engineers in the Deep recently invented a much-improved ramscoop for use in their merchant fleets."
@@ -164,6 +184,7 @@ outfit "Hyperdrive"
 	cost 50000
 	thumbnail "outfit/hyperdrive"
 	"mass" 20
+	"required maintenance" 2.0
 	"outfit space" -20
 	"jump speed" .2
 	"jump fuel" 100
@@ -176,6 +197,7 @@ outfit "Scram Drive"
 	cost 90000
 	thumbnail "outfit/scram drive"
 	"mass" 30
+	"required maintenance" 3.0
 	"outfit space" -30
 	"scram drive" .2
 	"jump fuel" 150
@@ -187,6 +209,7 @@ outfit "Jump Drive"
 	cost 1000000
 	thumbnail "outfit/jump drive"
 	"mass" 20
+	"required maintenance" 2.0
 	"outfit space" -20
 	"jump speed" .3
 	"jump fuel" 200
@@ -199,6 +222,7 @@ outfit "Cargo Scanner"
 	cost 8000
 	thumbnail "outfit/cargo scanner"
 	"mass" 1
+	"required maintenance" 0.1
 	"outfit space" -1
 	"cargo scan power" 9
 	"cargo scan speed" 1
@@ -209,6 +233,7 @@ outfit "Outfit Scanner"
 	cost 24000
 	thumbnail "outfit/outfit scanner"
 	"mass" 2
+	"required maintenance" 0.2
 	"outfit space" -2
 	"outfit scan power" 25
 	"outfit scan speed" 1
@@ -219,6 +244,7 @@ outfit "Asteroid Scanner"
 	cost 192000
 	thumbnail "outfit/asteroid scanner"
 	"mass" 6
+	"required maintenance" 0.6
 	"outfit space" -6
 	"asteroid scan power" 40
 	description "This highly specialized scanning system can analyze the mineral composition of nearby asteroids and identify the ones that contain valuable materials."
@@ -228,6 +254,7 @@ outfit "Tactical Scanner"
 	cost 144000
 	thumbnail "outfit/tactical scanner"
 	"mass" 4
+	"required maintenance" 0.4
 	"outfit space" -4
 	"tactical scan power" 32
 	description "A tactical scanner allows your ship to determine the fuel, energy, heat, and crew complement of nearby targets. For centuries tactical scanners were only employed by the Navy, but recently Kraz Cybernetics has begun manufacturing them for use by militia ships."
@@ -237,6 +264,7 @@ outfit "Surveillance Pod"
 	cost 122500
 	thumbnail "outfit/surveillance pod"
 	"mass" 5
+	"required maintenance" 0.5
 	"outfit space" -5
 	"outfit scan power" 16
 	"outfit scan speed" 2
@@ -251,6 +279,7 @@ outfit "Cloaking Device"
 	category "Systems"
 	cost 1200000
 	"mass" 10
+	"required maintenance" 1.0
 	"outfit space" -10
 	"cloak" .01
 	"cloaking energy" 1
@@ -264,6 +293,7 @@ outfit "Outfits Expansion"
 	cost 50000
 	thumbnail "outfit/blue screwdriver"
 	"mass" 5
+	"required maintenance" 0.5
 	"outfit space" 15
 	"cargo space" -20
 	"cooling inefficiency" 1
@@ -277,6 +307,7 @@ outfit "Cargo Expansion"
 	cost 30000
 	thumbnail "outfit/red screwdriver"
 	"mass" 5
+	"required maintenance" 0.5
 	"cargo space" 15
 	"outfit space" -20
 	unplunderable 1
@@ -287,6 +318,7 @@ outfit "Bunk Room"
 	cost 40000
 	thumbnail "outfit/bunk room"
 	"mass" 5
+	"required maintenance" 0.5
 	"bunks" 4
 	"outfit space" -20
 	unplunderable 1
@@ -297,6 +329,7 @@ outfit "Small Bunk Room"
 	cost 20000
 	thumbnail "outfit/small bunk room"
 	"mass" 3
+	"required maintenance" 0.3
 	"bunks" 2
 	"outfit space" -12
 	unplunderable 1
@@ -326,6 +359,7 @@ outfit "Fuel Pod"
 	cost 20000
 	thumbnail "outfit/fuel pod"
 	"mass" 8
+	"required maintenance" 0.8
 	"outfit space" -8
 	"fuel capacity" 100
 	description "A fuel pod increases your fuel capacity, allowing your ship to make one additional hyperspace jump before it needs to land and refuel."
@@ -335,6 +369,7 @@ outfit "Interference Plating"
 	cost 50000
 	thumbnail "outfit/interference plating"
 	"mass" 4
+	"required maintenance" 0.4
 	"outfit space" -4
 	"scan interference" .5
 	description "If you're in the habit of carrying illegal cargo or outfits, this plating increases the odds that a scan of your ship will fail to detect it. The more of these you install, the better your chances of evading detection. They won't keep anyone from noticing if you're flying an unlicensed ship, however."
@@ -365,6 +400,7 @@ outfit "Security Station"
 	cost 42000
 	thumbnail "outfit/security station"
 	"mass" 2
+	"required maintenance" 0.2
 	"outfit space" -2
 	"capture defense" 3.4
 	"unplunderable" 1
